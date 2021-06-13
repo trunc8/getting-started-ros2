@@ -1,15 +1,13 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>py_pubsub</name>
+  <name>python_parameters</name>
   <version>0.0.0</version>
-  <description>Examples of minimal publisher/subscriber using rclpy</description>
+  <description>Python parameter tutorial</description>
   <maintainer email="sahasiddharth611@outlook.com">Siddharth Saha</maintainer>
   <license>Apache License 2.0</license>
 
-  <exec_depend>rclpy</exec_depend>
-  <exec_depend>std_msgs</exec_depend>
-  <exec_depend>tutorial_interfaces</exec_depend>
+  <depend>rclpy</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
